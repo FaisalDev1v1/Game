@@ -1,0 +1,238 @@
+body{
+  font-family: 'Cabin', sans-serif;
+}
+
+.play-ground {
+  height: 300px;
+  width: 600px;
+  background-image: url("https://i.ibb.co/8z04CKp/image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  padding: 50px 90px;
+  position: relative;
+}
+
+.character {
+  height: 107px;
+  width: 105px;
+  position: relative;
+  top: 193px;
+  /* background-color: blue; */
+}
+
+.animation {
+  animation: character-jump 500ms;
+}
+
+.doggy {
+  height: 120px;
+  width: 150px;
+}
+
+@keyframes character-jump {
+  0% {
+    top: 193px;
+  }
+
+  30% {
+    top: 125px;
+  }
+
+  90% {
+    top: 125px;
+  }
+
+  100% {
+    top: 193px;
+  }
+}
+
+.object {
+  height: 70px;
+  width: 100px;
+  position: relative;
+  left: 480px;
+  top: 125px;
+  z-index: -1;
+  /* background-color: green; */
+}
+
+.ob-animation {
+  animation: object-moves linear 1s infinite;
+  z-index: 1;
+}
+
+.rock {
+  height: 70px;
+  width: 110px;
+}
+
+@keyframes object-moves {
+  0% {
+    left: 480px;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+.rover {
+  height: 90px;
+  width: 70px;
+  position: relative;
+  top: -12px;
+  left: 500px;
+  /* background-color: blue; */
+}
+/* replay model */
+.mask-lost {
+  height: 400px;
+  width: 780px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  display: none;
+  z-index: 50;
+  background-color: rgba(0, 0, 0, 0.80);
+}
+
+.model-lost {
+  /* background-color: #F0E6D1; */
+  background-image: url("https://i.ibb.co/jvfGH4K/imgbin-cuisine-of-hawaii-luau-png.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px;
+  padding: 85px 20px 10px 15px;
+  /* border: 0.1px solid grey; */
+  /* border-radius: 10px; */
+  width: 360px;
+  height: 160px;
+  position: absolute;
+  top: 60px;
+  /* top: 115px; */
+  left: 190px;
+  text-align: center;
+  z-index: 100;
+}
+
+.model-replay:focus {
+  outline: none;
+}
+
+.model-replay {
+  background: linear-gradient(180deg, #178c5f, #207e4f);
+  text-align: center;
+  padding: 5px 20px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.exis-lost {
+  cursor: pointer;
+  border: 0.5px solid;
+  padding: 3px;
+  font: icon;
+}
+
+.model-lost h1 {
+  display: inline;
+position: relative;
+/* bottom: 30px;
+left: 270px; */
+left: 210px;
+top: 5px;
+  margin: 0;
+  text-align: right;
+}
+
+.model-lost h3{
+  display: inline;
+  margin: 0;
+}
+
+.model-lost p{
+  margin: 3px 0;
+}
+
+/* welcoming model */
+.welcoming {
+  height: 400px;
+  width: 780px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 50;
+  background-image: url("https://i.ibb.co/K70SnD2/paper-background-Text-background-free-border-Frames.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: white;
+}
+
+.welcoming-model {
+  padding: 15px 15px 35px 15px;
+  width: 350px;
+  position: absolute;
+  color: #F0E6D1;
+  top: 50px;
+  left: 220px;
+  text-align: center;
+  z-index: 100;
+}
+
+.welcoming-model-start:focus {
+  outline: none;
+}
+
+.welcoming-model-start {
+  background: linear-gradient(180deg, #178c5f, #207e4f);
+  text-align: center;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.welcoming-model p {
+  text-align: left;
+}
+
+/* 123 start */
+.model-123 {
+  padding-left: 40px;
+  width: 200px;
+  position: absolute;
+  top: 120px;
+  left: 280px;
+  text-align: center;
+  z-index: 100;
+  display: none;
+  /* background-color: green; */
+}
+
+.numbers {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  font-size: 150px;
+  display: none;
+}
+
+
+.stopwatch {
+  /* background-color: #F0E6D1; */
+  background-image: url("https://i.ibb.co/VpTnFYr/Wooden-Board-PNG-Free.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 120px;
+  width: 190px;
+  padding-top: 40px;
+/* padding: 10px; */
+text-align: center;
+border-radius: 10px;
+position: absolute;
+right: 290px;
+top: -9px;
+}
