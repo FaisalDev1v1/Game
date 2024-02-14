@@ -1,6 +1,6 @@
 # Game Project Web Application
 
-Welcome to the Game Project Web Application! This web application showcases a simple game built using HTML, CSS, and pure JavaScript.
+Welcome to the Game Project AS Web Application! This web application showcases a simple game built using HTML, CSS, and pure JavaScript.
 
 ## Table of Contents
 
@@ -13,9 +13,7 @@ Welcome to the Game Project Web Application! This web application showcases a si
 - [License](#license)
 
 ## Introduction
-
-Provide a brief introduction to your game project. Explain its purpose, features, and any other relevant information.
-
+Little Doggy is a Game Based on a web app 
 ## Features
 
 List the key features of your game. For example:
@@ -23,7 +21,6 @@ List the key features of your game. For example:
 - Interactive gameplay
 - Score tracking
 - Responsive design
-- [Add your features...]
 
 ## Tech Stack
 
@@ -33,11 +30,6 @@ This project is built using the following technologies:
 - CSS
 - JavaScript (Pure)
 
-## Getting Started
+## URL
 
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/game-project.git
+https://faisaldev1v1.github.io/Game/
